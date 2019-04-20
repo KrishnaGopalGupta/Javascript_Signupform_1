@@ -1,0 +1,29 @@
+#formd{
+	
+	background-color:rgb(25,255,222);
+	height:100%;
+
+}
+
+.formfont{
+	font-size : 20px;
+	margin:10px;
+	padding: 10px;
+	position: float;
+	
+	}
+
+.inptext{
+	margin-left:0px;
+	color:blue;
+}	
+
+#butt{
+
+
+color: blue;
+margin:5px;
+padding : 0px;
+text-align:center;
+	
+}

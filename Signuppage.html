@@ -1,0 +1,95 @@
+<!Doctype html>
+<html>
+<head>
+<title> Sign UP Form </title>
+<link type ="text/css" rel="stylesheet" href="Signuplook.css" >
+<link type="text/css" rel ="stylesheet" href="formlook.css">
+<link type= "text/css" rel ="stylesheet" href="menustyle.css">
+
+</head>
+
+<body>
+
+<div class = "dropdown">
+<button class="dbutton">  Welcome </button>
+<div class="dhover">
+<a href="#" > Home </a>
+<a href ="#" > About </a>
+<a href = "#" > Contact </a>
+</div>
+
+
+</div>
+
+
+<div class ="split left"> 
+<p> Welcome to India  </p>
+</div>
+
+<div>
+
+<div class="split right">
+
+<div id="heading-details"> <header class="center-heading" > Welecome to Signup form </header> </div>
+
+<div id ="formd">
+
+<form class ="formfont" name="myform" action="./Signupdone.html" onsubmit="return formvalidation()" method="post">  
+<table>
+<tr> 
+<td> <p id="data"> Name </p> </td>
+
+<td>
+<input type = "text" class ="inptext" name="fname" placeholder = " Enter the Name "/>   
+</td>
+</tr>
+
+<tr> 
+<td>
+ <p id="data"> <span> Age </span> </p> </td>
+<td>
+ <input type ="text" name="mage" placeholder ="Enter the Age" > 
+ </td>
+ </tr>
+
+<tr> 
+<td>
+<p id="data"> Email Adress </p> </td>
+ <td> <input type ="text" class ="inptext" name="memail" placeholder="Enter the Email address"> </td> </tr>
+ 
+ <tr> 
+<td>
+<p id="data"> Mobile Number </p> </td>
+<td> <input type="text" class ="inptext"  name="mnumber" placeholder="Enter the Mobile number" > </td> </tr>
+
+<tr> <td> <p id="data"> Password  </p> </td> 
+<td> <input type = "password" class ="inptext"  name="pass" placeholder ="Enter the Password" > </td> </tr>
+
+<tr> 
+<td> <p id="data"> Confirm Password </p> </td>
+
+<td> <input type = "password" class ="inptext"  name="cpass" placeholder ="Enter the Confirm password" ></td></tr>
+
+<tr> <td> <input type = "radio" name = "gender"  id="data" class ="inptext" value="male" checked> Male  </td>
+ <td> <input type = "radio" name = "gender"  value="female"> Female </td>
+ </tr>
+
+<tr id="butt"> <td> 
+<input type ="reset" value="Reset" > </td>
+<td> <input type ="submit" value="Submit" > </td>
+</tr>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+<script src="validation.js" type="text/javascript"> </script>
+
+</body>
+
+</html>
+

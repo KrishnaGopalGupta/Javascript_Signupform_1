@@ -1,0 +1,44 @@
+.dropdown{
+	
+	margin:0px;
+	padding:0px;
+
+  background-color:
+	
+}
+
+.dbutton{
+	background-color : black;
+	color:white;
+	
+	
+}
+
+.dhover{
+	
+	 display:none;
+  position: absolute;
+margin:0px;
+	padding:1px;
+  background-color: #f1f1f1;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 12;
+	text-decoration : none;		
+}
+
+.dhover a{
+	
+	color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dhover a:hover {background-color: #ddd;}
+
+.dropdown:hover .dhover {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
